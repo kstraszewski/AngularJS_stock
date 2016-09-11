@@ -31,11 +31,6 @@ var app = angular
     }])
     .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/');
-
-    }])
-    .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-
         $urlRouterProvider.otherwise('/main');
         $stateProvider
             .state('main', {
