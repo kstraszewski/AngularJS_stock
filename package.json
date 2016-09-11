@@ -10,7 +10,9 @@
     "lodash": "^4.15.0"
   },
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kstraszewski/AngularJS_stock.git"
