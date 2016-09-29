@@ -1,3 +1,13 @@
-<div class="row" ng-controller="mainController">
-    <h1>{{message}}</h1>
+<div ng-controller="mainController">
+    <div class="row">
+        <client-list list="list1"></client-list>
+        <client-list list="list2"></client-list>
+    </div>
+    <div class="row" ng-controller="addingButtonController">
+        <h3>Dodaj nowy element</h3>
+        <input placeholder="Imię" type="text" ng-model="name">
+        <div>Czy wysłać do 1 listy?</div>
+        <input ng-model="listNumber" type="checkbox" class="checkbox">
+        <button ng-click="addName(name, listNumber)" class="btn btn-primary">Dodaj</button>
+    </div>
 </div>

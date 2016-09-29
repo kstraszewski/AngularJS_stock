@@ -2,22 +2,26 @@
 <html lang="en" ng-app="app">
 <head>
 
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/angular-bootstrap/ui-bootstrap-csp.css">
 </head>
 
 <body>
-<div ui-view></div>
+<div class="container" ui-view></div>
 
-<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="../bower_components/angular/angular.min.js"></script>
-<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-<script src="../bower_components/linqjs/linq.min.js"></script>
-<script src="../bower_components/lodash/dist/lodash.min.js"></script>
-<script src="../bower_components/restangular/src/restangular.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/bower_components/linqjs/linq.min.js"></script>
+<script src="/bower_components/lodash/dist/lodash.min.js"></script>
+<script src="/bower_components/restangular/src/restangular.js"></script>
 
 <script src="app.js"></script>
+<script src="directives/clientList/clientList.js"></script>
 <script src="main/main.js"></script>
+<script src="factory/listAccess/listAccess.js"></script>
+<script src="Controllers/addingButtonController.js"></script>
 </body>
 </html>

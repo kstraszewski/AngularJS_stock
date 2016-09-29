@@ -12,7 +12,7 @@ gulp.task('serve', [], function () {
                 "/bower_components": "bower_components"
             }
         },
-        port: 3020
+        port: 3030
     });
     gulp.watch(config.filesToWatch).on('change', reload);
 

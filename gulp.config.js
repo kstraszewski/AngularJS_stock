@@ -5,6 +5,7 @@ module.exports = function () {
     paths = {
         src: './src'
     };
+
     var config = {
         filesToWatch:[
             paths.src + "/*.js",
