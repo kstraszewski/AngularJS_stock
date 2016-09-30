@@ -1,7 +1,6 @@
 <div ng-controller="mainController">
     <div class="row">
-        <client-list list="list1"></client-list>
-        <client-list list="list2"></client-list>
+        <client-list ng-repeat="i in [0,1]" list-id="i"></client-list>
     </div>
     <div class="row" ng-controller="addingButtonController">
         <h3>Dodaj nowy element</h3>
